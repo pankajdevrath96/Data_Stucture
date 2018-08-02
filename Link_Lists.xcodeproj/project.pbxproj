@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		FA89F5B720F8E497004485FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA89F5B620F8E497004485FC /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		FA89F5B120F8E497004485FC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA3FFA7620FCD405007A91B0 /* Insertion in sorted form in link list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion in sorted form in link list.cpp"; sourceTree = "<group>"; };
+		FA3FFA7820FCDB06007A91B0 /* Reverse traverse using recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse traverse using recursion.cpp"; sourceTree = "<group>"; };
+		FA3FFA7B20FCDCFF007A91B0 /* Deletion begining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deletion begining.cpp"; sourceTree = "<group>"; };
+		FA3FFA7D20FCDDC1007A91B0 /* Deletion ending.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deletion ending.cpp"; sourceTree = "<group>"; };
+		FA4B373C2105950B007FEAA2 /* Q11(Common Elements in two linklist).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q11(Common Elements in two linklist).cpp"; sourceTree = "<group>"; };
+		FA4B374521076F7A007FEAA2 /* Common point of two link lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Common point of two link lists.cpp"; sourceTree = "<group>"; };
+		FA568312210F4FE500D30783 /* Deletion begining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deletion begining.cpp"; sourceTree = "<group>"; };
+		FA568314210F52D800D30783 /* Deletion Ending.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deletion Ending.cpp"; sourceTree = "<group>"; };
+		FA568316210F53FF00D30783 /* Deletion of a given element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deletion of a given element.cpp"; sourceTree = "<group>"; };
+		FA6EB09820FF750B00089096 /* Deletion of an element in list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deletion of an element in list.cpp"; sourceTree = "<group>"; };
+		FA6EB09B20FF7A4600089096 /* Deleting the middle node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Deleting the middle node.cpp"; sourceTree = "<group>"; };
+		FA6EB09D20FF7E5E00089096 /* Reverse a list in a given pair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse a list in a given pair.cpp"; sourceTree = "<group>"; };
+		FA6EB09F20FF806500089096 /* Insertion at a particular position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion at a particular position.cpp"; sourceTree = "<group>"; };
+		FA6EB0AB21023B0100089096 /* Q1(nth-node from end).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q1(nth-node from end).cpp"; sourceTree = "<group>"; };
+		FA6EB0AE210241F200089096 /* Q2(Adding 1 to last node).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 1; path = "Q2(Adding 1 to last node).cpp"; sourceTree = "<group>"; wrapsLines = 1; };
+		FA6EB0B121024C3900089096 /* Q3(Reverse in pairs in alternative order).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q3(Reverse in pairs in alternative order).cpp"; sourceTree = "<group>"; };
+		FA6EB0B321024C5C00089096 /* Q4(Delete duplicate from sorted list).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q4(Delete duplicate from sorted list).cpp"; sourceTree = "<group>"; };
+		FA6EB0B52102528E00089096 /* Q5(Delete Middle Element).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q5(Delete Middle Element).cpp"; sourceTree = "<group>"; };
+		FA6EB0B821031CC800089096 /* Q6(Delete Key element last Occurence).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q6(Delete Key element last Occurence).cpp"; sourceTree = "<group>"; };
+		FA6EB0BD2103929300089096 /* Q7(Reverse first n element,n eneter by user).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q7(Reverse first n element,n eneter by user).cpp"; sourceTree = "<group>"; };
+		FA6EB0BF210392C000089096 /* Q8(Rotate counter-clockwise by k nodes).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q8(Rotate counter-clockwise by k nodes).cpp"; sourceTree = "<group>"; };
+		FA6EB0C12103A35800089096 /* Q9(List is Pallindrome or Not).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q9(List is Pallindrome or Not).cpp"; sourceTree = "<group>"; };
+		FA6EB0C32103A7F100089096 /* Q10(Merge two shorted list in Shorted order).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Q10(Merge two shorted list in Shorted order).cpp"; sourceTree = "<group>"; };
 		FA89F5B320F8E497004485FC /* Link_Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Link_Lists; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA89F5B620F8E497004485FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA89F5B620F8E497004485FC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FA89F5C020F8EA24004485FC /* Insertion from Ending.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion from Ending.cpp"; sourceTree = "<group>"; };
+		FAC30EED2108B9FD0086B981 /* Insertion Begining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion Begining.cpp"; sourceTree = "<group>"; };
+		FAC30EF02108BD160086B981 /* Insertion Ending.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion Ending.cpp"; sourceTree = "<group>"; };
+		FAC30EF22108BE210086B981 /* Insertion at a particular location.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion at a particular location.cpp"; sourceTree = "<group>"; };
+		FADBD8C7210B5E0A00BC053F /* Print Reverse in pairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print Reverse in pairs.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +62,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA6EB0AD21023B0600089096 /* Assignemnt1 */ = {
+			isa = PBXGroup;
+			children = (
+				FA6EB0AB21023B0100089096 /* Q1(nth-node from end).cpp */,
+				FA6EB0AE210241F200089096 /* Q2(Adding 1 to last node).cpp */,
+				FA6EB0B121024C3900089096 /* Q3(Reverse in pairs in alternative order).cpp */,
+				FA6EB0B321024C5C00089096 /* Q4(Delete duplicate from sorted list).cpp */,
+				FA6EB0B52102528E00089096 /* Q5(Delete Middle Element).cpp */,
+				FA6EB0B821031CC800089096 /* Q6(Delete Key element last Occurence).cpp */,
+				FA6EB0BD2103929300089096 /* Q7(Reverse first n element,n eneter by user).cpp */,
+				FA6EB0BF210392C000089096 /* Q8(Rotate counter-clockwise by k nodes).cpp */,
+				FA6EB0C12103A35800089096 /* Q9(List is Pallindrome or Not).cpp */,
+				FA6EB0C32103A7F100089096 /* Q10(Merge two shorted list in Shorted order).cpp */,
+				FA4B373C2105950B007FEAA2 /* Q11(Common Elements in two linklist).cpp */,
+			);
+			path = Assignemnt1;
+			sourceTree = "<group>";
+		};
 		FA89F5AA20F8E497004485FC = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +99,43 @@
 		FA89F5B520F8E497004485FC /* Link_Lists */ = {
 			isa = PBXGroup;
 			children = (
-				FA89F5B620F8E497004485FC /* main.cpp */,
+				FA89F5B620F8E497004485FC /* main.c */,
+				FAC30EEF2108BA040086B981 /* Double_Link_List */,
+				FA89F5C220F8EA81004485FC /* Single_Link_List */,
 			);
 			path = Link_Lists;
+			sourceTree = "<group>";
+		};
+		FA89F5C220F8EA81004485FC /* Single_Link_List */ = {
+			isa = PBXGroup;
+			children = (
+				FA89F5C020F8EA24004485FC /* Insertion from Ending.cpp */,
+				FA3FFA7820FCDB06007A91B0 /* Reverse traverse using recursion.cpp */,
+				FA3FFA7620FCD405007A91B0 /* Insertion in sorted form in link list.cpp */,
+				FA6EB09820FF750B00089096 /* Deletion of an element in list.cpp */,
+				FA3FFA7B20FCDCFF007A91B0 /* Deletion begining.cpp */,
+				FA3FFA7D20FCDDC1007A91B0 /* Deletion ending.cpp */,
+				FA6EB09B20FF7A4600089096 /* Deleting the middle node.cpp */,
+				FA6EB09D20FF7E5E00089096 /* Reverse a list in a given pair.cpp */,
+				FA6EB09F20FF806500089096 /* Insertion at a particular position.cpp */,
+				FA4B374521076F7A007FEAA2 /* Common point of two link lists.cpp */,
+				FADBD8C7210B5E0A00BC053F /* Print Reverse in pairs.cpp */,
+				FA6EB0AD21023B0600089096 /* Assignemnt1 */,
+			);
+			path = Single_Link_List;
+			sourceTree = "<group>";
+		};
+		FAC30EEF2108BA040086B981 /* Double_Link_List */ = {
+			isa = PBXGroup;
+			children = (
+				FAC30EED2108B9FD0086B981 /* Insertion Begining.cpp */,
+				FAC30EF02108BD160086B981 /* Insertion Ending.cpp */,
+				FAC30EF22108BE210086B981 /* Insertion at a particular location.cpp */,
+				FA568312210F4FE500D30783 /* Deletion begining.cpp */,
+				FA568314210F52D800D30783 /* Deletion Ending.cpp */,
+				FA568316210F53FF00D30783 /* Deletion of a given element.cpp */,
+			);
+			path = Double_Link_List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA89F5B720F8E497004485FC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
