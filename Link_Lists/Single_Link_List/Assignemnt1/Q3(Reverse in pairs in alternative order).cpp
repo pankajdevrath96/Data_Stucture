@@ -1,5 +1,5 @@
 //
-//  Q3(Reverse in pairs).cpp
+//  Q3(Reverse in pairs in alternative order).cpp
 //  Link_Lists
 //
 //  Created by Pankaj Devrath on 20/07/18.
@@ -47,10 +47,20 @@ int main(){
     cin>>n;
     p=start;
     head=NULL;
+    int i=0;
+    if(n==0){
+        head=start;
+        
+    }
+    else{
+        
+    
     while(p!=NULL)
         {
         int count=0;
         node *q,*start1=NULL;
+        if(i%2==0)
+            {
         while(p!=NULL && count<n)
             {
             count++;
@@ -60,6 +70,30 @@ int main(){
             q->next=start1;
             start1=q;
             p=p->next;
+            }
+            }
+        else
+            {
+            while(p!=NULL && count<n)
+                {
+                count++;
+                q=new node();                       //Insertion Ending
+                q->info=p->info;
+                p=p->next;
+                if(start1==NULL)
+                    {
+                    start1=q;
+                    }
+                else
+                    {
+                    node *t=start1;
+                    while(t->next!=NULL)
+                        {
+                        t=t->next;
+                        }
+                    t->next=q;
+                    }
+                }
             }
         q=start1;
         
@@ -75,7 +109,9 @@ int main(){
                 }
                 q->next=start1;
             }
+        i++;
         }
+    }
     p=head;
     while (head!=NULL) {
         cout<<head->info<<" ";

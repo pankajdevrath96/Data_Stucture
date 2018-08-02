@@ -12,6 +12,26 @@ struct node{
     int info;
     struct node *next;
 };
+
+//void swap(node **head){
+//
+//  if((*head)==NULL|| (*head)->next==NULL)
+//      return;
+//    node *pre=(*head);
+//    node *curr=(*head)->next;
+//    (*head)=curr;
+//    while (true) {
+//        node *next=curr->next;
+//        if(next==NULL || next->next==NULL){
+//            pre->next=next;
+//            break;
+//        }
+//        pre->next=next->next;
+//        pre=next;
+//        curr=pre->next;
+//    }
+//}
+
 int main(){
     node *start,*p,*q;
     int i;
@@ -44,4 +64,13 @@ int main(){
         cout<<p->info<<" ";
         p=p->next;
         }
+    
+    cout<<endl;
+//    swap(&start);
+//    p=start;
+//    while(p!=NULL)
+//        {
+//        cout<<p->info<<" ";
+//        p=p->next;
+//        }
 }

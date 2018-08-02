@@ -12,6 +12,27 @@ struct node{
     char info;
     node*next;
 };
+int pallindrome(node **n,node *h){
+    
+    if(h==NULL){
+        return 1;
+    }
+    else{
+        
+        int y=pallindrome(n,h->next);
+        if(y==1){
+            if((*n)->info==h->info){
+                (*n)=(*n)->next;
+                return 1;
+            }
+            else{
+                return 0;
+            }
+        }
+    }
+    return 0;
+}
+
 string isPallindrome(node *start)
 {
     node *head=NULL,*p;
@@ -77,5 +98,6 @@ int main()
         }
     
     cout<<endl<<isPallindrome(start)<<endl;
+    cout<<pallindrome(&start,start)<<endl;
     
 }
